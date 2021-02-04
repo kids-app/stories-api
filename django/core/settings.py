@@ -156,7 +156,11 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    'https://children-hub-front.childern-hub-2.vercel.app',
+    'https://children-hub-front-git-main.childern-hub-2.vercel.app',
+    'https://children-hub-front-2rzkjiucq.vercel.app',
+    'https://children-hub-front-2rzkjiucq.vercel.app/',
 ]
 
 # Custom user model
